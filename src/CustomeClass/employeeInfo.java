@@ -2,7 +2,9 @@ package CustomeClass;
 
 import CustomeClass.employee;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class employeeInfo {
     public static void main(String[] args) {
@@ -22,12 +24,20 @@ public class employeeInfo {
         List<employee> employees=employee.addEmployee(new employee[]{employee1,employee2,employee3,employee4,employee5});
        // print employees
         System.out.println("Before remove======================================");
+//        employee.printAllEmployees(employees);
+
+        Map<Integer,employee>employeeMap=new HashMap<>();
+
         employee.printAllEmployees(employees);
         //delete CustomeClass.employee
         System.out.println("after remove======================================");
         employee.removeEmployeeById(100001,employees);
         // print employees to check if specific employees is removed
         employee.printAllEmployees(employees);
+
+        System.out.println("get All employee ID=====================================>");
+
+        System.out.println(employeeMethods.getId(employees));
 
 
 

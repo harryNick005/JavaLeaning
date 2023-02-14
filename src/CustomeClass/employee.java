@@ -3,9 +3,21 @@ package CustomeClass;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 
 public class employee {
-    public  int id;
+
+    private int id;
+
+    public void setId(int id){
+        this.id=id;
+    }
+
+    public int getId(){
+        return this.id;
+    }
+
+
     public String employeeFirstName;
     public String employeeLastName;
 
@@ -17,7 +29,7 @@ public class employee {
     public employee(){
 
     }
-    public employee(int id,String employeeFirstName,String employeeLastName,String title,char gender,int age, double Salary){
+    public  employee(int id,String employeeFirstName,String employeeLastName,String title,char gender,int age, double Salary){
         this.id=id;
         this.employeeFirstName=employeeFirstName;
         this.employeeLastName=employeeLastName;
@@ -68,7 +80,6 @@ public class employee {
         System.out.println(employees);
     }
 
-
     /**
      * this method os tp remove specific CustomeClass.employee by id
      * @param employees
@@ -78,5 +89,29 @@ public class employee {
        List<employee> employeeList= getAllEmployees(employees);
         employeeList.removeIf(eachEmployeeObject->eachEmployeeObject.id==id);
     }
+
+
+    /**
+     *
+     * @param employees
+     */
+
+//    public static List <Integer> getId(List<employee> employeesList){
+//        List<Integer> employeeIdList=new ArrayList<>();
+//        for (int i = 0; i <employeesList.size() ; i++) {
+//          employeeIdList.add(employeesList.get(i).getId());
+//        }
+//        return employeeIdList;
+//    }
+
+
+    //    public static Map<Integer,employee> addEmployeeMap(Integer id,){
+//
+//    }
+    public static void printAllEmployees(Map<Integer, employee> employees){
+        System.out.println(employees);
+    }
+
+
 
 }
