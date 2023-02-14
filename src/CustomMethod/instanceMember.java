@@ -15,7 +15,7 @@ public class instanceMember {
 
         instanceMember obj = new instanceMember();
 
-        obj.printName("Alibaba ");
+        obj.printName("Alibaba  ");
 
     }
 }
