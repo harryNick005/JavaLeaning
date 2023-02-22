@@ -3,4 +3,4 @@
  inheritance ===> 继承  extends （all instance member） (override)
 
 
-延用 === 母类 （parent 类） 成员 （member） ---> 1.变量（variable）2. 方法（method/function）
+延用 === 母类 （parent 类） 成员 （member） ---> 1.变量（variable）2. 方法（method/function） 看到我的求了
