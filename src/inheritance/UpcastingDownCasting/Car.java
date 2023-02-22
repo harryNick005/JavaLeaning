@@ -1,27 +1,29 @@
 package inheritance.UpcastingDownCasting;
 
 public class Car {
+    String brand="";
+
 
     public void ignition(){
-        System.out.println("Engine started");
+        System.out.println(brand+" Engine started");
     }
 
     public void forward(){
-        System.out.println("car is moving forward");
+        System.out.println(brand+" car is moving forward");
     }
 
     public void reverse(){
-        System.out.println("car is going backward");
+        System.out.println(brand+" car is going backward");
     }
 
     public void horn(){
-        System.out.println("Bebebe");
+        System.out.println(brand+" Bebebe");
     }
     public void brake(){
-        System.out.println("car stops");
+        System.out.println(brand+" car stops");
     }
 
     public void park(){
-        System.out.println("Engine stall");
+        System.out.println(brand+" car is parked");
     }
 }
