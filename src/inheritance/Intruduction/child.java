@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.Intruduction;
 
 public class child extends parent {
 

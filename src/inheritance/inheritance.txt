@@ -1,0 +1,6 @@
+ OOP Concept  1. encapsulation 2. inheritance 3.abstraction  4.  Polymorphism
+
+ inheritance ===> 继承  extends （all instance member） (override)
+
+
+延用 === 母类 （parent 类） 成员 （member） ---> 1.变量（variable）2. 方法（method/function）

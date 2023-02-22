@@ -1,4 +1,4 @@
-package inheritance;
+package inheritance.Intruduction;
 
 public class parent {
     // OOP Concept  1. encapsulation 2. inheritance 3.abstraction  4.  Polymorphism
