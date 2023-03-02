@@ -17,12 +17,7 @@ public class stringReverse {
 
     public static void main(String[] args) {
         String result=stringReverse.reverseString("Hello World");
-        stringReverse.reverseString("Hello World");
-        String reversedString="dlroW olleH";
-
-        if(reversedString.equals(result)){
-            System.out.println("Reversed Successfully");
-        }
+        System.out.println(result);
 
     }
 }
