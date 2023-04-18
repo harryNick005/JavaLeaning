@@ -6,6 +6,9 @@ public class Audi extends Car{
     public void horn(){
         System.out.println(brand+" BiBiBi");
     }
+    public void horn1(){
+        System.out.println(brand+" BBBBB");
+    }
 
     public void matrixBeam(String onAndOff){
         System.out.println("Audi Beam is "+onAndOff);
@@ -13,6 +16,7 @@ public class Audi extends Car{
 
     public static void main(String[] args) {
         Car audi=new Audi();  // Up-casting
+
         Audi audi_Down=(Audi)audi; //Down-casting
 
 
@@ -39,6 +43,8 @@ public class Audi extends Car{
 
         //matrix Beam
         audi_Down.matrixBeam("on");
+
+        audi_Down.horn1();
 
     }
 }

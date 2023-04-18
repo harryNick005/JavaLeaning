@@ -87,7 +87,7 @@ public class employee {
 
     public static void removeEmployeeById(int  id,List<employee> employees){
        List<employee> employeeList= getAllEmployees(employees);
-        employeeList.removeIf(eachEmployeeObject->eachEmployeeObject.id==id);
+        employeeList.removeIf(eachEmployeeObject->eachEmployeeObject.getId()==id);
     }
 
 
